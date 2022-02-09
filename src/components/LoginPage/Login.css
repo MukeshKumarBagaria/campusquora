@@ -1,0 +1,95 @@
+/* Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Roboto&display=swap");
+    /* fontAwesome cdn */
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+:root {
+  --loginPageColor: #ebf3ff;
+}
+
+.login-container {
+  background: var(--loginPageColor);
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "lato", "sans-serif";
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-div {
+  width: 800px;
+  height: 600px;
+  background: var(--loginPageColor);
+  border-radius: 40px;
+  padding: 5px 35px 35px 35px;
+  box-shadow: 10px 10px 20px #9b9fa2,
+    -10px -10px 20px rgba(255, 255, 255, 0.845);
+}
+.logo {
+  background: red;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+  box-shadow: 
+    /* logo shadow */
+   
+     /* offset */ 0px 0px 0px 5px #ecf0f3,
+    /* bottom right*/ 8px 8px 15px #a7aaaf, /* top-left  */ -8px -8px 15px #fff;
+}
+.logo h1 {
+  padding-top: 50px;
+  color: #5C426C;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 10px;
+  letter-spacing: 0.5px;
+  color: #5C426C;
+}
+.subtitle {
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #5C426C;
+}
+.login-options {
+margin-top: 0;
+  align-items: center;
+}
+.heading {
+    margin-top: 0;
+  text-align: center;
+  font-family: "IBM+Plex+MonoSA";
+  color: #5C426C;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.buttons{
+    text-align: center;
+}
+.social-links div {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 8px #babebc;
+    cursor: pointer;
+  }
+  .social-links a {
+    color: #5C426C;
+  }
+  .social-links div:active {
+    box-shadow: inset 1px 1px 2px #babebc, inset -1px -1px 2px #fff;
+  }
+  .icon{
+      font-size: 40px;
+  }
